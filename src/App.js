@@ -3,19 +3,12 @@ import Header from './Components/header';
 import Items from './Components/items';
 import Button from './Components/button';
 import HookComponent from './Components/hook';
+import MyComponent from './Components/useEffect';
 function App() {
   return (
     <div className="App">
-      <div className="todo-container">
-        <HookComponent/>
-        <Header title="TODO from Props"/>
-        <Items/>
-        <Items/>
-        <Items/>
-        <Items/>
-        <Items/>
-        <Button/>
-      </div>
+
+      <MyComponent/>
     </div>
   );
 }
